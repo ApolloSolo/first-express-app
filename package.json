@@ -1,0 +1,22 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "my fisrt app with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApolloSolo/first-express-app.git"
+  },
+  "author": "Matt Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApolloSolo/first-express-app/issues"
+  },
+  "homepage": "https://github.com/ApolloSolo/first-express-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
