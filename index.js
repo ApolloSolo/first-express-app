@@ -26,8 +26,15 @@ app.get('/cats', (req, res) => {
 });
 
 app.get('/dogs', (req, res) => {
-    res.send("BARK");
+    res.send("BARK!");
 });
+
+//Query Strings
+app.get('/search', (req, res) => {
+    const { q } = req.query;
+    const { color } = req.query;
+    res.send(`${q} ${color}, nodemon test`);
+})
 
 app.get('*', (req, res) => {
     res.send("Do not know that request.")
